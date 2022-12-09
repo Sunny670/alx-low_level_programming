@@ -1,4 +1,6 @@
 #include <studio.h>
+
+
 /**
  *main - Prints the lowercase alphabet in reverse. 
  *
@@ -12,4 +14,4 @@ char letter;
 		putchar(letter);
 	putchar('\n');
 	return (0);
-
+}
