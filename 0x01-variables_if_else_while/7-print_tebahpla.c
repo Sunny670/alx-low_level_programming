@@ -1,8 +1,8 @@
 #include <studio.h>
 /**
- *main - prints the lowercase alphabet in reverse
+ *main - Prints the lowercase alphabet in reverse. 
  *
- *Return: 0
+ *Return: Always 0
  *
  */
 int main(void)
