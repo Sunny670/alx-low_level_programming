@@ -8,7 +8,7 @@
 */
 
 int main(void)
-	a
+
 {
 int a, b;
 for (a = 48; a <= 56; b++)
@@ -28,5 +28,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return (0);
+return (0)
 }
