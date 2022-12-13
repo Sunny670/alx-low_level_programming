@@ -9,15 +9,15 @@
 int main(void)
 {
 int a, b;
-for (a = 48; a <= 56; b++)
+for (a = 01; a <= 89; b++)
 {
-for (b = 49; b <= 57; b++)
+for (b = 02; b <= 88; b++)
 {
 if (b > a)
 {
 putchar(a);
 putchar(b);
-if (a != 56 || b != 57)
+if (a != 89 || b != 88)
 {
 putchar(',');
 putchar(' ');
@@ -26,5 +26,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return 0;
+return (0);
 }
