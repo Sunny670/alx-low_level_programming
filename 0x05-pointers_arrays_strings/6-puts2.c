@@ -12,15 +12,17 @@ int longi = 0;
 	int b;
 
 	while (*x != '\0')
-	{
+{
 	x++;
 	longi++;
-	}
+}
 	a = longi - 1;
 	for (b = 0; b <= a ; b++)
-	{
+{
+	if (b % 2 == 0)
+{
 	_putchar(str[b]);
-	}
+}
 }
 	_putchar('\n');
 }
