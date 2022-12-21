@@ -13,7 +13,7 @@ while (n[i] != '\0')
 {
 if (n[i] >= 'a' && n[i] <= 'Z')
 n[i] = n[i] - 32;
-	i++;
+i++;
 }
 return (n);
 }
