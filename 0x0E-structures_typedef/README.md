@@ -6,3 +6,7 @@ where
 name, type = char*
 age,type = float
 owner, type = char*
+
+##Task 01:
+A function that initialize a variable of type struct dog.
+
