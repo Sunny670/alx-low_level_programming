@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main- prints the name the file
- * Return: Always 0
- */
+* main - prints the name of the file
+*
+* Return: Always 0 (Success)
+*/
 int ain(void)
 {
 printf("%s\n", __FILE__);
