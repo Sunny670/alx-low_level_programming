@@ -12,7 +12,7 @@ listint_t *temp = *head;
 new = malloc(sizeof(listint_t));
 if (!new)
 return (NULL);
-ne->n = n;
+new->n = n;
 new->next = NULL;
 if (*head == NULL)
 {
@@ -20,7 +20,7 @@ if (*head == NULL)
 return (new);
 }
 while (temp->next)
-	temp = temp->next;
-	temp->next = new;
-	return (new);
+temp = temp->next;
+temp->next = new;
+return (new);
 }
