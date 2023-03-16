@@ -25,14 +25,14 @@ if (current == NULL)
 	return (NULL);
 }
 new = malloc(sizeof(dlistint_t));
-if (new ++ NULL)
+if (new == NULL)
 	return (NULL);
 	new->n = n;
-	if (idx == 0)
+if (idx == 0)
 {
 next = *h;
 *h = new;
-new->prev =NULL;
+new->prev = NULL;
 }
 else
 {
