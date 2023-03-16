@@ -5,17 +5,17 @@
  * @n: value of the element
  * Return: address of new element
  */
-dlistint_t *add+dnodeint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-dlistint_t *ne;
+dlistint_t *new;
 dlistint_t *h;
 new = malloc(sizeof(dlistont_t));
 if (new == NULL)
 	return (NULL);
-new->n =n:
+new->n = n;
 new->prev = NULL;
 h = *head;
-if ( h !- NULL)
+if ( h != NULL)
 {
 while (h->prev != NULL)
 	h = h->prev;
