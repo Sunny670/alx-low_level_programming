@@ -1,6 +1,4 @@
 #!/bin/bash
-for file in *.c; do
-	gcc- fPIC -c "$file"
-	gone
-	gcc -shared -o libdynamic.so * .o
-	rm *.o
+gcc *.c -c -fPIC
+gcc *.o -shared -o liball.so
+
