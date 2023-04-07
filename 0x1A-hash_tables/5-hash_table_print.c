@@ -5,7 +5,7 @@
 
 /**
  * hash_table_print - prints the hash table
- * @ht: hash table 
+ * @ht: hash table
  *
  * Return: Nothing
  */
