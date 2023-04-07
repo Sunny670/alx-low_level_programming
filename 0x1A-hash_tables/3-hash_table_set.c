@@ -10,7 +10,7 @@
  *
  * Return: New node, or NULL on failure
  */
-hash_node_t *make_hash_node(const char *key, const char *value)
+hash_node_t *create_hash_node(const char *key, const char *value)
 {
 	hash_node_t *node;
 
@@ -64,7 +64,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		tmp = tmp->next;
 	}
-	new_node = make_hash_node(key, value);
+	new_node = create_hash_node(key, value);
 	if (new_node == NULL)
 		return (0);
 	new_node->next = ht->array[slot];
