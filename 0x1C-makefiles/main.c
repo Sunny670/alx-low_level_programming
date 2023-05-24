@@ -8,3 +8,4 @@ int main(void)
 	printSchool();
 	return (EXIT_SUCCESS);
 	}
+/* School */
